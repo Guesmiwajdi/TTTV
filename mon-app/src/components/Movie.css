@@ -1,0 +1,41 @@
+.paginationBttns {
+  width: 80%;
+  height: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.paginationBttns a {
+  padding: 7px;
+  margin: 6px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  background-color: #DD3444;
+}
+
+.paginationBttns a:focus {
+  outline: none;
+}
+.paginationActive a {
+  background-color: #DD3444;
+}
+
+.movie-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #DD3444;
+}
+.genre {
+  background-color: #DD3444;
+  padding: 4px;
+  margin: 2px 6px 2px 2px;
+  color: #fff;
+  border-radius: 3px;
+}
